@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Applicacion Narrativas</title>
+
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/co.js"></script>
+    <script src="js/RamCol.js"></script>
+    <script src="js/printing.js"></script>
+    <script src="js/ApareceTexto.js"></script>
+
+</head>
+
+<body>
+    <div id="General" class="container-fluid" >
+      
+       <div id="Bt_print" class="esconde" >
+          <div onClick = "Aimprimir()" >
+              <img src="Img/n1.png" width="180" height="auto" alt="niple">
+          </div>
+       </div>
+       
+           <div id="TxtC" >
+               <h1 >Script application «Digital storytelling»</h1>
+              <p id ="Aplicacion"> My name is Vinicius Marquet, I am a graphic-UX designer and author of diverse graphical and textual experiments. I hold a bachelors in Visual Communication and design by UNAM and a master course in Digital culture pathway interaction and game design by the University of the Arts Utrecht (HKU) in the Netherlands. My personal interest and research is about the mutation of the book and written language in Digital Media or in what the theorist Jhon Cayley calls the Network and programmable media, term that I prefer to use .<br>
+              During my master course I did a working prototype app and poem named «The city is the text». Inspired on the concrete poetry manifesto and Ulises Carion artwork, «The city is the text» used the dutch traffic signs as a structure and Augmented Reality target to distribute the interactive and multimedia content of the poem.<br>
+              The project dropped me more questions about the creative potential of geo locative narratives in digital storytelling. By instance, Imagine a book where pages are located in a tridimensional space like the street. This book has not pages weaved by the spine, but it is weaved by the text it self. Reading and writing is linked to the space and time where you are located: How does the space will affect the narration of the book? How would be the index of that book?  How does the distribution of the stories can be affected as well ? 
+              <br>Early 2013, I started Cuéntanos un secreto project in Mexico city. It is a secret sharing project between communities, a visual communication workshop and a popular story telling archive.  
+              Secrets beside of being a fantastic pedagogic tool,or excuse, to explore the broad subject of Visual communication.  Secrets are a great example of the daily popular storytelling of each community.  Secrets are deeply attached to their own community but, also,  they have a repetitive story patterns between different communities and cultures.   
+              <br>As a premise,I would like to combine both projects: «The city is a text» as a geo locative narrative platform to explore narratives in the space and«Cuéntanos un secreto project» as the content of those explorations. 
+              <br>During the digital story telling master course I want to contribute with my experiences, knowledge and skills to other projects. As I expect to have critical feedback and  technical contributions to my experiments.This master program of the course appeals to me because it seems to be a critical  and practical approach to the subject and missing  piece of my personal research. </p>
+        </div>
+        
+        
+        
+        
+        
+          <div id="CajaQR" class="esconde">
+              <a rel="nofollow" href="http://www.qrcode-generator.de" border="0" style="cursor:default"></a>
+              <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fvimeo.com%2F103113278&chs=180x180&choe=UTF-8&chld=L|2" alt="" width="100px" height="auto">
+        </div>
+        <div id="Footer">
+           
+                <button id="BT_Ce" onMouseOver="CeOver()" onMouseOut="CeOut()" onClick="Apareces()">
+                <svg id="Circulo" width="30" height="30">
+                <circle id="Ce" cx="15" cy="15" r="10" stroke="white" stroke-width="2" fill="none" />
+                    </svg>
+                </button>
+          <p id="AppearText"> If you want to miss the great experience of printing a sheet of paper, just  <a onclick="Revela()">click here</a>   </p>
+        </div>
+            
+    </div>
+</body>
+</html>

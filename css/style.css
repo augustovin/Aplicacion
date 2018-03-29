@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+   
+    background: blue;
+    padding: none;
+    margin:none;
+}
+
+h1{
+    font-size:40px;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    
+    
+}
+
+p {
+    
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 30px;
+}
+
+#General{
+    min-width:100%;
+    min-height:100%;
+        
+}
+
+.esconde{
+display: none;
+    
+}
+
+#TxtC{
+    display: inline-block;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: scroll;
+    opacity:0;
+    transition: opacity .3s ease-out .3s;
+    -webkit- transition: opacity .3s ease-out .3s;
+}
+#Aplicacion{
+    color:white;
+    
+}
+
+#Bt_print
+{
+    
+    position: absolute;
+    padding: 1px;
+    margin:auto;
+    left:45%;
+    top:40%;
+    display:block;
+}
+
+.button{
+    background:none;
+    padding:10px;
+   
+}
+.button:hover {
+    background:white;
+    color:blue;
+    
+}
+
+#Footer{
+    position:fixed;
+    display: block;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background: none;
+    border-top: solid 1px white;
+    padding: .1em ;
+    background: blue;
+}
+#AppearText {
+    color:white;
+    font-size:12px;
+    text-align: left;
+    padding-left:5em;
+    display:inline-block;
+    opacity: 0;
+    transition: opacity .3s ease .3s;
+    -webkit-transition: opacity .3s ease .3s;
+}
+
+
+#BT_Ce{
+    background: none;
+    border: none;
+    padding: 1px;
+    position: fixed;
+    z-index: 12;
+    left: 5px;
+    bottom: 5px;
+    margin: 1px;
+}
+
+
+#Circulo{
+
+    background:none;
+    border:none;}
+
+
+
+
+
+@media print{
+     
+    @page {
+    size: A4; 
+    }
+    
+    body{
+    background: white;   
+    }
+    
+    #TxtC{
+    margin:2cm;
+    }
+    
+    .esconde{
+    display:block;
+    }            
+    
+    h1{
+    font-size:17pt;
+    line-height: 19pt;
+    padding-bottom: 50pt;
+    padding-top: 30pt;    
+    }
+    
+    p {
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color:black;
+    font-size:14pt;
+    line-height: 17pt;
+    text-align:left;
+    }
+   
+
+    #CajaQR{
+    padding-top:50px;
+    width: 200pt;    
+    }    
+}
+
